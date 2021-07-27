@@ -1,5 +1,6 @@
 USE codeup_test_db;
 
+TRUNCATE albums;
 INSERT INTO albums
 (artist, name, release_date, sales, genre)
 VALUES ('Meatloaf', 'Bat Out of Hell', '1977', '21.7', 'Hard rock, glam rock, progressive rock'),
