@@ -7,4 +7,4 @@ LIMIT 10;
 
 # Create a query to get the top 5 salaries and display just the employees number from the salaries table
 SELECT DISTINCT salary FROM salaries
-LIMIT 5;
+LIMIT 50;
