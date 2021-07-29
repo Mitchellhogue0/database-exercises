@@ -6,5 +6,6 @@ ORDER BY last_name DESC
 LIMIT 10;
 
 # Create a query to get the top 5 salaries and display just the employees number from the salaries table
-SELECT DISTINCT salary FROM salaries
-LIMIT 50;
+SELECT DISTINCT emp_no, salary FROM salaries
+ORDER BY salary DESC
+LIMIT 46, 4;
