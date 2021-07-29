@@ -7,6 +7,7 @@ ORDER BY last_name, first_name DESC;
 
 
 # Find all employees whose last name starts with 'E'
+# Use concat() to combine their first and last name together as a single column in your results.
 SELECT first_name, last_name, CONCAT(first_name, ' ', last_name)
 FROM employees
 WHERE last_name LIKE '%e'
@@ -28,6 +29,9 @@ WHERE last_name LIKE '%e' AND last_name LIKE 'e%';
 SELECT * FROM employees
 WHERE last_name LIKE '%q%' AND last_name NOT LIKE  '%qu%';
 
+# Find all employees hired in the 90s and born on Christmas
+# Change the query such that the first result is the oldest employee who was hired last
+# use datediff() to find how many days they have been working at the company
 SELECT DATEDIFF(curdate(), hire_date) FROM employees
 WHERE DAY(birth_date) = '25' AND MONTH(birth_date) = '12' AND hire_date BETWEEN '1990-1-1' AND '1999-12-31'
 ORDER BY birth_date, hire_date DESC;
