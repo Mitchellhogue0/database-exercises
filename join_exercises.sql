@@ -1,5 +1,6 @@
 USE employees;
-
+# write a query that shows each department along with the name of the current manager for that department.
+# Find the name of all departments currently managed by women.
 SELECT CONCAT(e.first_name, ' ', e.last_name) AS 'Department Manager', d.dept_name as 'Department Name'
 FROM employees as e
          JOIN dept_manager as de
@@ -26,7 +27,8 @@ FROM employees as e
               ON d.dept_no = de.dept_no
          JOIN salaries as s
               ON s.emp_no = e.emp_no
-WHERE de.to_date = '9999-01-01' AND s.to_date = '9999-01-01';
+WHERE de.to_date = '9999-01-01' AND s.to_date = '9999-01-01'
+ORDER BY d.dept_name;
 
 
 
