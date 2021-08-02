@@ -9,11 +9,11 @@ FROM employees as e
 WHERE de.to_date = '9999-01-01' AND e.gender = 'F';
 
 # Find the current titles of employees currently working in the Customer Service department.
-SELECT t.title as Title, COUNT(e.emp_no) as Total
-FROM dept_emp as e
-JOIN titles t on e.emp_no = t.emp_no
-WHERE dept_no = 'd009'
-GROUP BY t.title;
+SELECT title, count(*) Total
+from titles as t
+         join dept_emp de on t.emp_no = de.emp_no
+where t.to_date = '9999-01-01' and de.to_date ='9999-01-01' and dept_no = 'd009'
+group by title;
 
 SELECT * FROM departments;
 
@@ -31,7 +31,7 @@ WHERE de.to_date = '9999-01-01' AND s.to_date = '9999-01-01';
 
 
 
-
+# *BONUS*
 SELECT CONCAT(first_name, ' ', last_name) as Employee, d.dept_name as Department,
        CONCAT(e.first_name, ' ', e.last_name) AS Manager
 FROM employees as e
