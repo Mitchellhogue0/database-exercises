@@ -26,7 +26,7 @@ FROM employees as e
               ON d.dept_no = de.dept_no
          JOIN salaries as s
               ON s.emp_no = e.emp_no
-WHERE de.to_date = '9999-01-01';
+WHERE de.to_date = '9999-01-01' AND s.to_date = '9999-01-01';
 
 
 
