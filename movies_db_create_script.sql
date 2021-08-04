@@ -28,4 +28,5 @@ for Menelaus'' wife, Helen (Diane Kruger), and takes her back to Troy. Menelaus'
 having already defeated every army in Greece, uses his brother''s fury as a pretext to declare war against Troy, the
 last kingdom preventing his control over the Aegean Sea.');
 
-SELECT * FROM movies;
+SELECT *
+FROM movies;

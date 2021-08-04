@@ -81,7 +81,15 @@ CREATE TABLE quote_topic
 );
 
 INSERT INTO quote_topic(quote_id, topic_id)
-VALUES (1, 2), (1, 3), (2, 4), (3, 1),
-       (3, 2), (3, 3), (3, 4), (4, 2), (5, 1);
+VALUES (1, 2),
+       (1, 3),
+       (2, 4),
+       (3, 1),
+       (3, 2),
+       (3, 3),
+       (3, 4),
+       (4, 2),
+       (5, 1);
 
-SELECT * FROM quote_topic;
+SELECT *
+FROM quote_topic;
