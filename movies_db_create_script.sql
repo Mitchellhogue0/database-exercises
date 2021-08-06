@@ -26,7 +26,19 @@ hundreds of scientists who have mutated into flesh-eating creatures after a labo
 of Troy and Sparta. While visiting Spartan King Menelaus (Brendan Gleeson), Trojan prince Paris (Orlando Bloom) falls
 for Menelaus'' wife, Helen (Diane Kruger), and takes her back to Troy. Menelaus'' brother, King Agamemnon (Brian Cox),
 having already defeated every army in Greece, uses his brother''s fury as a pretext to declare war against Troy, the
-last kingdom preventing his control over the Aegean Sea.');
+last kingdom preventing his control over the Aegean Sea.'),
+       ('Inception', '2010', '9', 'Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people''s
+dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate
+espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly
+impossible task: Plant an idea in someone''s mind. If he succeeds, it will be the perfect crime, but a dangerous enemy
+anticipates Cobb''s every move.'),
+       ('Pulp Fiction', '1994', '8', 'Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson) are hitmen
+with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is
+interwoven with those of their boss, gangster Marsellus Wallace (Ving Rhames) ; his actress wife, Mia (Uma Thurman) ;
+struggling boxer Butch Coolidge (Bruce Willis) ; master fixer Winston Wolfe (Harvey Keitel) and a nervous pair of armed
+robbers, "Pumpkin" (Tim Roth) and "Honey Bunny" (Amanda Plummer).
+'),
+
 
 SELECT *
 FROM movies;
