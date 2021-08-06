@@ -38,7 +38,11 @@ interwoven with those of their boss, gangster Marsellus Wallace (Ving Rhames) ; 
 struggling boxer Butch Coolidge (Bruce Willis) ; master fixer Winston Wolfe (Harvey Keitel) and a nervous pair of armed
 robbers, "Pumpkin" (Tim Roth) and "Honey Bunny" (Amanda Plummer).
 '),
-
+       ('The Notebook', '2004', '10', 'In 1940s South Carolina, mill worker Noah Calhoun (Ryan Gosling) and rich girl
+Allie (Rachel McAdams) are desperately in love. But her parents don''t approve. When Noah goes off to serve in World War
+II, it seems to mark the end of their love affair. In the interim, Allie becomes involved with another man (James
+Marsden). But when Noah returns to their small town years later, on the cusp of Allie''s marriage, it soon becomes clear
+that their romance is anything but over.');
 
 SELECT *
 FROM movies;
