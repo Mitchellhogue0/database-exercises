@@ -7,11 +7,11 @@ DROP TABLE IF EXISTS movies;
 
 CREATE TABLE movies
 (
-    id     INT UNSIGNED NOT NULL AUTO_INCREMENT,
     title  VARCHAR(100),
     year   INT          NOT NULL,
     rating INT,
     plot   TEXT,
+    id     INT UNSIGNED NOT NULL AUTO_INCREMENT,
     PRIMARY KEY (id)
 );
 
